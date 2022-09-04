@@ -14,6 +14,7 @@ submitButton.addEventListener("click", () => {
     tasks.push(task);
     regenerateTasks()
     taskInput.value = ''
+    taskInput.focus()
 });
 
 function processTaskDetails(taskDetail){ return taskDetail.split('\n')}
