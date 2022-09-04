@@ -67,7 +67,19 @@ header{
 }
 
 /* Body */
+.instructions {
+    cursor: default;
+}
+.green{
+    color:rgb(66, 241, 75);
+}
 
+.yellow{
+    color:rgb(252, 196, 74);
+}
+.red{
+    color:rgb(255, 15, 15);
+}
 /* Task */
 .task {
     border: 1px solid black;
